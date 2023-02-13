@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "glogin",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}
