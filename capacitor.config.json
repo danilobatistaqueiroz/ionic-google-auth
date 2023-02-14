@@ -2,5 +2,13 @@
 	"appId": "io.ionic.starter",
 	"appName": "glogin",
 	"webDir": "www",
-	"bundledWebRuntime": false
+	"bundledWebRuntime": false,
+  "androidClientId": "760929459670-q4jgj7lpbs7s2585hkb0sr7saqai7fiu.apps.googleusercontent.com",
+  "plugins": {
+    "GoogleAuth": {
+      "scopes": ["profile", "email"],
+      "serverClientId": "760929459670-q4jgj7lpbs7s2585hkb0sr7saqai7fiu.apps.googleusercontent.com",
+      "forceCodeForRefreshToken": true
+    }
+  }
 }
